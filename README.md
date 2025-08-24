@@ -11,7 +11,7 @@
 
 <h1 align="center">🖤 SUKI-BOT</h1>
 <p align="center">
-  <img src="https://qu.ax/HVBuQ.jpg" width="300" alt="Black Clover">
+  <img src="https://files.cloudkuimages.guru/images/AV8moLnK.jpg" width="300" alt="SukiBot-V5.2.0">
 </p>
 
 <p align="center">
