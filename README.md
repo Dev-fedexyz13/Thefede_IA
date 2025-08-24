@@ -5,11 +5,11 @@
 ⭐ _No olvides dejar tu estrellita para apoyar el proyecto_
 
 > 👑 *El bot definitivo para WhatsApp*
-> ⚔️ _Automatiza, protege y diviértete en tus grupos_
+> 🍂 _Automatiza, protege y diviértete en tus grupos_
 
 ---
 
-<h1 align="center">🖤 SUKI-BOT</h1>
+<h1 align="center">🍁 SUKI-BOT</h1>
 <p align="center">
   <img src="https://files.cloudkuimages.guru/images/AV8moLnK.jpg" width="300" alt="SukiBot-V5.2.0">
 </p>
