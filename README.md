@@ -51,7 +51,15 @@ WhatsApp es una marca registrada, y este proyecto no tiene relación oficial con
 ---
 
 *🔗 Enlaces oficiales*
-PlataformaTipoEnlace📱 WhatsApp Canal OficialNoticias y actualizaciones[Ir al canal](https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w)👥 Grupo de SoporteComunidad y ayuda[Unirse al grupo](https://chat.whatsapp.com/GrcUknwrJbNIXIIrbsuXc0)---
+
+<p align="center">
+  <a href="https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w" target="_blank">
+    <img src="https://img.shields.io/badge/Canal%20Oficial-WhatsApp-25D366?style=for-the-badge&logo=whatsapp" alt="Canal Oficial WhatsApp">
+  </a>
+  <a href="https://chat.whatsapp.com/GrcUknwrJbNIXIIrbsuXc0" target="_blank">
+    <img src="https://img.shields.io/badge/Grupo%20de%20Soporte-WhatsApp-black?style=for-the-badge&logo=whatsapp" alt="Grupo de Soporte">
+  </a>
+</p>
 
 *👾 Creador del Proyecto: `Dev-fedexyz13`*
 
