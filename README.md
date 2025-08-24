@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://wa.me/5491156178758">
-    <img src="https://img.shields.io/badge/CARLOS OFC-black?style=for-the-badge&logo=whatsapp" alt="WhatsApp del autor">
+    <img src="https://img.shields.io/badge/fedexyz13-black?style=for-the-badge&logo=whatsapp" alt="WhatsApp del autor">
   </a>
   <a href="https://www.instagram.com/dev_fedexyz13?">
     <img src="https://img.shields.io/badge/@Dev-fedexyz13-purple?style=for-the-badge&logo=instagram" alt="Instagram Oficial">
