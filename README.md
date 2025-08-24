@@ -1,4 +1,4 @@
-![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
+![line](https://raw.githubusercontent.com/ArlindNocaj/animated-lines/main/fire-line.gif)
 
 *🚀 SukiBot_MD v5.2.0*
 *¡Actualización disponible!*
@@ -23,7 +23,7 @@
   </a>
 </p>
 
-![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
+![line](https://raw.githubusercontent.com/ArlindNocaj/animated-lines/main/fire-line.gif)
 
 *ℹ️ Sobre el proyecto*
 
@@ -55,7 +55,7 @@ WhatsApp es una marca registrada, y este proyecto no tiene relación oficial con
 🔄 ¡Y más funciones en desarrollo!
 </details>
 
-![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
+![line](https://raw.githubusercontent.com/ArlindNocaj/animated-lines/main/fire-line.gif)
 
 ---
 
