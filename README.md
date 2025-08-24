@@ -69,7 +69,7 @@ WhatsApp es una marca registrada, y este proyecto no tiene relación oficial con
   </a>
   <br><br>
   <a href="https://github.com/Dev-fedexyz13" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Dev-fedexyz13-0f0f0f?style=for-the-badge&logo=github&logoColor=white">
+    <img src="https://img.shields.io/badge/GitHub-Dev--fedexyz13-0f0f0f?style=for-the-badge&logo=github&logoColor=white">
   </a>
   <a href="https://wa.me/5491156178758" target="_blank">
     <img src="https://img.shields.io/badge/WhatsApp-fedexyz13-25D366?style=for-the-badge&logo=whatsapp">
