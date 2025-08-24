@@ -62,8 +62,20 @@ WhatsApp es una marca registrada, y este proyecto no tiene relación oficial con
 *🔗 Enlaces oficiales*
 PlataformaTipoEnlace📱 WhatsApp Canal OficialNoticias y actualizaciones[Ir al canal](https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w)👥 Grupo de SoporteComunidad y ayuda[Unirse al grupo](https://chat.whatsapp.com/GrcUknwrJbNIXIIrbsuXc0)---
 
-*👤 Creador del proyecto*
+*👾 Creador del Proyecto: `Dev-fedexyz13`*
 
-<a href="https://github.com/Dev-fedexyz13">
-  <img src="https://github.com/Dev-fedexyz13.png" width="250" height="250" alt="fedexyz13"/>
-</a>
+<div align="center" style="background:#0f0f0f;padding:20px;border-radius:15px;">
+  <a href="https://github.com/Dev-fedexyz13" target="_blank">
+    <img src="https://github.com/Dev-fedexyz13.png" width="200" height="200" style="border-radius:50%;box-shadow:0 0 25px #00ffcc;" alt="Dev-fedexyz13"/>
+  </a>
+  <br><br>
+  <a href="https://github.com/Dev-fedexyz13" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Dev--fedexyz13-0f0f0f?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+  <a href="https://wa.me/5491156178758" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-fedexyz13-25D366?style=for-the-badge&logo=whatsapp">
+  </a>
+  <a href="https://www.instagram.com/dev_fedexyz13" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-@dev_fedexyz13-purple?style=for-the-badge&logo=instagram">
+  </a>
+</div>
