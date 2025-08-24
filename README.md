@@ -57,15 +57,10 @@ WhatsApp es una marca registrada, y este proyecto no tiene relación oficial con
 
 ![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
-*🌐 ¿Dónde instalarlo?*
-
-🔧 Puedes instalar el bot en tu propio [hosting](https://ctrl.luminarys.shop/) o usar Termux/Cloud Shell.
-
 ---
 
 *📲 Instalar con Termux*
 
-<a href="https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.a">
   <img src="https://qu.ax/finc.jpg" height="125px" alt="Descargar Termux">
 </a>
 
