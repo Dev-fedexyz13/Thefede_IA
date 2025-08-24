@@ -1,159 +1,112 @@
 ![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
-# 🆕 Nueva Versión 7.7.7
-**No olvides dejar tu estrellita 🌟**
+*🚀 SukiBot_MD v5.2.0*
+*¡Actualización disponible!*
+⭐ _No olvides dejar tu estrellita para apoyar el proyecto_
 
-> 👑 **El mejor Bot de WhatsApp ⚔️**
+> 👑 *El bot definitivo para WhatsApp*
+> ⚔️ _Automatiza, protege y diviértete en tus grupos_
 
 ---
 
-<h1 align="center">Black - Clover</h1>
+<h1 align="center">🖤 SUKI-BOT</h1>
 <p align="center">
   <img src="https://qu.ax/HVBuQ.jpg" width="300" alt="Black Clover">
 </p>
 
 <p align="center">
   <a href="https://wa.me/525544876071">
-    <img title="Autor" src="https://img.shields.io/badge/CARLOS OFC-black?style=for-the-badge&logo=whatsapp">
+    <img src="https://img.shields.io/badge/CARLOS OFC-black?style=for-the-badge&logo=whatsapp" alt="WhatsApp del autor">
   </a>
   <a href="https://instagram.com/_carlitos.zx">
-    <img title="Instagram del creador" src="https://img.shields.io/badge/@_carlitos.zx-purple?style=for-the-badge&logo=instagram">
+    <img src="https://img.shields.io/badge/@_carlitos.zx-purple?style=for-the-badge&logo=instagram" alt="Instagram del creador">
   </a>
 </p>
 
 ![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
-### ℹ️ Información importante
+*ℹ️ Sobre el proyecto*
 
 <details>
-<summary><b>📘 ✞ Info Bot</b></summary>
+<summary><b>📘 Información legal</b></summary>
 
-* Este proyecto **no está afiliado de ninguna manera** con `WhatsApp`. `WhatsApp` es una marca registrada de `WhatsApp LLC`, y este bot es un **desarrollo independiente** que **no tiene ninguna relación oficial con la compañía**.
+Este bot es un desarrollo *independiente* y *no está afiliado* a `WhatsApp LLC`.
+WhatsApp es una marca registrada, y este proyecto no tiene relación oficial con la compañía.
 </details>
 
 <details>
-<summary><b>⚙️ ✞ Funciones</b></summary>
+<summary><b>⚙️ Funcionalidades principales</b></summary>
 
-> El bot todavía está en desarrollo. Si presenta alguna falla, repórtala al creador para darle una solución.
+> El bot está en constante evolución. Si detectas errores, ¡repórtalos al creador!
 
-- [x] Interacción con voz y texto
-- [x] Configuración de grupo
-- [x] Antidelete, antilink, antispam, etc.
-- [x] Bienvenida personalizada
-- [x] Juegos: tictactoe, matemáticas, etc.
-- [x] Chatbot (SimSimi)
-- [x] Chatbot (Auto-responder)
-- [x] Crear sticker de imagen/video/gif/URL
-- [x] SubBot (Jadibot)
-- [x] Buscador Google
-- [x] Juego RPG
-- [x] Personalizar imagen del menú
-- [x] Descarga de música y video de YouTube
-- [ ] Otros en desarrollo
+✅ Funciones disponibles:
 
+- Interacción por voz y texto
+- Configuración avanzada de grupos
+- Protección: antidelete, antilink, antispam
+- Mensajes de bienvenida personalizados
+- Juegos integrados: tictactoe, matemáticas, RPG
+- Chatbots: SimSimi y auto-responder
+- Creación de stickers desde imagen/video/gif/URL
+- SubBot (Jadibot)
+- Buscador de Google
+- Personalización del menú
+- Descarga de música y videos desde YouTube
+🔄 ¡Y más funciones en desarrollo!
 </details>
 
-
 ![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
-🌐 **¡PUEDES INSTALAR EL BOT EN ALGÚN [HOSTING](https://ctrl.luminarys.shop/)!**
+*🌐 ¿Dónde instalarlo?*
 
-![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
+🔧 Puedes instalar el bot en tu propio [hosting](https://ctrl.luminarys.shop/) o usar Termux/Cloud Shell.
 
-### 📲 Click en la imagen para obtener Termux
+---
+
+*📲 Instalar con Termux*
+
 <a href="https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.a">
-  <img src="https://qu.ax/finc.jpg" height="125px">
+  <img src="https://qu.ax/finc.jpg" height="125px" alt="Descargar Termux">
 </a>
 
-![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
-
-### 💻 Instalar por Termux
-
 <details>
-<summary><b>📲  Ver comandos para Termux</b></summary>
-
-## 🚀 Instalación Rápida
+<summary><b>📦 Comandos para instalación rápida</b></summary>
 
 ```bash
 termux-setup-storage
-```
-
-```bash
-git clone https://github.com/thecarlos19/black-clover-MD 
-
-```
-```bash
-cd black-clover-MD 
-```
-```bash
+git clone https://github.com/thecarlos19/black-clover-MD
+cd black-clover-MD
 npm install
-```
-
-```bash
 npm start
 ```
 
-⚠️ Si después de ingresar tu número de WhatsApp aparecen letras en rojo, es parte del proceso normal. No te preocupes.
+⚠️ Si ves letras rojas al ingresar tu número, ¡no te preocupes! Es parte del proceso.
 </details>
 
-![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
+---
 
-### ☁️ Instalar desde Cloud Shell
+*☁️ Instalar con Cloud Shell*
 
 <details>
-<summary><b>🌀  Ver comandos para Cloud Shell</b></summary>
+<summary><b>🌀 Comandos para Cloud Shell</b></summary>
 
 ```bash
 apt update && apt upgrade
-```
-
-```bash
 git clone https://github.com/thecarlos19/black-clover-MD && cd black-clover-MD
-```
-
-```bash
 yarn install && npm install
-```
-
-```bash
 npm start
 ```
 
-✅ ¡Bot listo para usarse! El mejor bot de WhatsApp 🥷
+✅ ¡Listo! Tu bot está activo y funcionando 🥷
 </details>
 
-
 ![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
+*🔗 Enlaces oficiales*
+PlataformaTipoEnlace📱 WhatsApp Canal OficialNoticias y actualizaciones[Ir al canal](https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w)👥 Grupo de SoporteComunidad y ayuda[Unirse al grupo](https://chat.whatsapp.com/GrcUknwrJbNIXIIrbsuXc0)---
 
-## 🔗 Enlaces oficiales
+*👤 Creador del proyecto*
 
-| APP | TIPO | ENLACE |
-|------|-------------|--------|
-| 📱 WhatsApp Canal Oficial | Noticias y actualizaciones | [¡Aquí!](https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w) |
-| 👥 Grupo de Soporte | Comunidad y ayuda | [¡Aquí!](https://chat.whatsapp.com/GrcUknwrJbNIXIIrbsuXc0) |
-
-![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
-
-## 👤 Creador del proyecto
-
-<a href="https://github.com/thecarlos19">
-  <img src="https://github.com/thecarlos19.png" width="250" height="250" alt="thecarlos19"/>
+<a href="https://github.com/Dev-fedexyz13">
+  <img src="https://github.com/Dev-fedexyz13.png" width="250" height="250" alt="fedexyz13"/>
 </a>
-
-![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
-
-### 🌐 Redes sociales del creador
-
-<p align="center">
-  <a href="https://instagram.com/_carlitos.zx" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-%40_carlitos.zx-purple?style=for-the-badge&logo=instagram">
-  </a>
-  <a href="https://www.tiktok.com/@_carlitos.zx" target="_blank">
-    <img src="https://img.shields.io/badge/TikTok-%40_thecarlos.ok-black?style=for-the-badge&logo=tiktok">
-  </a>
-</p>
-
-![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
-
-🔋 *Powered by* [**THE LEGENDS** ⚡](https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w)
