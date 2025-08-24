@@ -15,11 +15,11 @@
 </p>
 
 <p align="center">
-  <a href="https://wa.me/525544876071">
+  <a href="https://wa.me/5491156178758">
     <img src="https://img.shields.io/badge/CARLOS OFC-black?style=for-the-badge&logo=whatsapp" alt="WhatsApp del autor">
   </a>
-  <a href="https://instagram.com/_carlitos.zx">
-    <img src="https://img.shields.io/badge/@_carlitos.zx-purple?style=for-the-badge&logo=instagram" alt="Instagram del creador">
+  <a href="https://www.instagram.com/dev_fedexyz13?">
+    <img src="https://img.shields.io/badge/@Dev-fedexyz13-purple?style=for-the-badge&logo=instagram" alt="Instagram Oficial">
   </a>
 </p>
 
