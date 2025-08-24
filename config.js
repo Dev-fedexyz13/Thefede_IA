@@ -16,8 +16,8 @@ global.botNumber = '' // Ejemplo: 525218138672
 //*──ׄ✞ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['5215544876071', '🜲 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👻', true],
-  ['5217971289909'],
+  ['5491156178758', '🜲 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👻', true],
+  ['573001533523'],
   [''], // Espacio 1
   [''], // Espacio 2
   ['']  // Espacio 3
@@ -45,20 +45,20 @@ global.packsticker = `
 ┃ ✞ 𝙱𝙾𝚃: 𝙱𝚕𝚊𝚌𝚔 𝙲𝚕𝚘𝚟𝚎𝚛 ☘
 ┃ ✞ 𝙰𝚄𝚃𝙾𝚁: 👑 𝚃𝙷𝙴 𝙲𝙰𝚁𝙻𝙾𝚂 ᚲ`;
 
-global.packname = `✠ 𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘ `;
+global.packname = `🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋`;
 global.author = `
 ⇝ 📆 ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}
 ⇝ ⏰ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}
 ♾━━━━━━━━━━━━━━━♾`;
 
-global.wm = '𝑩𝒍𝒂𝒄𝒌 𝑪𝒍𝒐𝒗𝒆𝒓 ☘';
-global.titulowm = '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘';
-global.igfg = 'ᥫ𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
+global.wm = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋';
+global.titulowm = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋';
+global.igfg = '୧ ꜰᴇᴅᴇxʏᴢㅤ🎋'
 global.botname = '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ the Legends ⚡'
-global.textbot = '𝑩𝑳𝑨𝑪𝑲 𝑪𝑳𝑶𝑽𝑬𝑹  : 𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
-global.gt = '͟͞𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘͟͞';
-global.namechannel = '𝑩𝑳𝑨𝑪𝑲 𝑪𝑳𝑶𝑽𝑬𝑹 / 𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ꜰᴇᴅᴇxʏᴢㅤ🍁'
+global.textbot = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD  𝐁ᥡ ꜰᴇᴅᴇxʏᴢ'
+global.gt = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋';
+global.namechannel = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD  𝐁ᥡ ꜰᴇᴅᴇxʏᴢ'
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
