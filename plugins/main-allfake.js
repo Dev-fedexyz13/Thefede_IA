@@ -39,16 +39,16 @@ handler.all = async function (m) {
     }
   }
 
-  global.creador = 'Wa.me/525544876071'
+  global.creador = 'Wa.me/5491156178758'
   global.ofcbot = `${conn?.user?.jid?.split('@')[0] || ''}`
-  global.asistencia = 'Wa.me/525544876071'
+  global.asistencia = 'Wa.me/5491176429275'
   global.namechannel = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋'
   global.namegrupo = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋'
   global.namecomu = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋 '
-  global.listo = '*🍁 Aquí tienes tu pedido*'
+  global.listo = '*🍁 Listo aquí tienes tu pedido*'
 
   //Ids channel
-  global.canalIdM = ["120363307694217288@newsletter", "120363307694217288@newsletter"]
+  global.canalIdM = ["120363402097425674@newsletter", "120363402097425674@newsletter"]
   global.canalNombreM = ["'🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋 ", "'🎄 Sᴜᴋɪ 🎋 "]
   global.idchannel = canalIdM[0]
   global.channelRD = await getRandomChannel()
