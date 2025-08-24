@@ -24,7 +24,7 @@ global.owner = [
 ];
 
 global.mods = []
-global.suittag = ['5215211111111'] 
+global.suittag = ['5491156178758'] 
 global.prems = []
 
 global.Owner.ID = [
@@ -35,7 +35,7 @@ global.Owner.ID = [
     premium: true
 },
   {
-    jid: '525544876071@s.whatsapp.net',
+    jid: '573001533523@s.whatsapp.net',
     nombre: 'DevBrayan',
     rol: 'Colaborador Oficial',
     premium: true
@@ -63,14 +63,17 @@ global.blackJadibts = true
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
 global.packsticker = `
-┃ ✞ 𝙱𝙾𝚃: 𝙱𝚕𝚊𝚌𝚔 𝙲𝚕𝚘𝚟𝚎𝚛 ☘
-┃ ✞ 𝙰𝚄𝚃𝙾𝚁: 👑 𝚃𝙷𝙴 𝙲𝙰𝚁𝙻𝙾𝚂 ᚲ`;
+╭─❍ 𝖲𝗎𝗄𝗂𝐁𝗈𝘁_𝖬𝖣 ☘
+│ ✦ 𝖡𝗈𝘁: 𝖲𝗎𝗄𝗂𝐁𝗈𝘁_𝖬𝖣
+│ ✦ 𝖢𝗋𝖾𝖺𝖽𝗈𝗋: 👑 𝖿𝖾𝖽𝖾𝗑𝗒𝗓13
+╰─────────────⟡`;
 
-global.packname = `🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋`;
+global.packname = `🎀 𝖲𝗎𝗄𝗂𝐁𝗈𝘁_𝖬𝖣 🎋`;
 global.author = `
-⇝ 📆 ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}
-⇝ ⏰ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}
-♾━━━━━━━━━━━━━━━♾`;
+⟦ 📅 Fecha: ${moment.tz('America/Los_Angeles').format('DD/MM/YY')} ⟧
+⟦ ⏰ Hora: ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} ⟧
+⟦ 🧠 Powered by: 𝖿𝖾𝖽𝖾𝗑𝗒𝗓13 ⟧
+♾━━━━━━━━━━━━━━━━━━━━♾`;
 
 global.wm = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋';
 global.titulowm = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋';
