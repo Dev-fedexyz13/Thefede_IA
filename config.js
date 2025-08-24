@@ -16,16 +16,37 @@ global.botNumber = '' // Ejemplo: 525218138672
 //*──ׄ✞ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['5491156178758', '🜲 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👻', true],
-  ['573001533523'],
-  [''], // Espacio 1
-  [''], // Espacio 2
-  ['']  // Espacio 3
+  ['5491156178758', 'creador fede', true],
+  ['573001533523', 'Colaborador Brayans', true],
+  ['5491176429276', 'SukiBot Oficial', true],
+  [''], // poner Su número 
+  ['']  // poner su número 
 ];
 
 global.mods = []
 global.suittag = ['5215211111111'] 
 global.prems = []
+
+global.Owner.ID = [
+  {
+    jid: '5491156178758@s.whatsapp.net',
+    nombre: '𝖿𝖾𝖽𝖾𝗑𝗒𝗓13',
+    rol: 'Creador Principal',
+    premium: true
+},
+  {
+    jid: '525544876071@s.whatsapp.net',
+    nombre: 'DevBrayan',
+    rol: 'Colaborador Oficial',
+    premium: true
+},
+  {
+    jid: '5491176429276@s.whatsapp.net',
+    nombre: 'sukiBot',
+    rol: 'número Oficial de Suki',
+    premium: true
+}
+];
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
@@ -34,9 +55,9 @@ global.baileys = 'V 6.7.9'
 global.languaje = 'Español'
 global.vs = '2.2.0'
 global.vsJB = '5.0'
-global.nameqr = 'black clover- Bot'
-global.sessions = 'blackSession'
-global.jadi = 'blackJadiBot'
+global.nameqr = 'SukiBot'
+global.sessions = 'SukiSession'
+global.jadi = 'SukiJadiBot'
 global.blackJadibts = true
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
