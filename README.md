@@ -53,15 +53,15 @@ WhatsApp es una marca registrada, y este proyecto no tiene relación oficial con
 *🔗 Enlaces oficiales*
 
 <p align="center">
-  <a href="https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w" target="_blank">
+  <a href="https://whatsapp.com/channel/0029VbApe6jG8l5Nv43dsC2N" target="_blank">
     <img src="https://img.shields.io/badge/Canal%20Oficial-WhatsApp-25D366?style=for-the-badge&logo=whatsapp" alt="Canal Oficial WhatsApp">
   </a>
-  <a href="https://chat.whatsapp.com/GrcUknwrJbNIXIIrbsuXc0" target="_blank">
-    <img src="https://img.shields.io/badge/Grupo%20de%20Soporte-WhatsApp-black?style=for-the-badge&logo=whatsapp" alt="Grupo de Soporte">
+  <a href="https://chat.whatsapp.com/Bxwmb1CO5ojASdRT87I11b target="_blank">
+    <img src="https://img.shields.io/badge/Grupo%20de%20Soporte-WhatsApp-black?style=for-the-badge&logo=whatsapp" alt="Grupo Oficial">
   </a>
 </p>
 
-*👾 Creador del Proyecto: `Dev-fedexyz13`*
+*🍂 Creador del Proyecto: `Dev-fedexyz13`*
 
 <div align="center" style="background:#0f0f0f;padding:20px;border-radius:15px;">
   <a href="https://github.com/Dev-fedexyz13" target="_blank">
@@ -69,7 +69,7 @@ WhatsApp es una marca registrada, y este proyecto no tiene relación oficial con
   </a>
   <br><br>
   <a href="https://github.com/Dev-fedexyz13" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Dev--fedexyz13-0f0f0f?style=for-the-badge&logo=github&logoColor=white">
+    <img src="https://img.shields.io/badge/GitHub-Dev-fedexyz13-0f0f0f?style=for-the-badge&logo=github&logoColor=white">
   </a>
   <a href="https://wa.me/5491156178758" target="_blank">
     <img src="https://img.shields.io/badge/WhatsApp-fedexyz13-25D366?style=for-the-badge&logo=whatsapp">
