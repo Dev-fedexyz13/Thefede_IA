@@ -59,44 +59,6 @@ WhatsApp es una marca registrada, y este proyecto no tiene relación oficial con
 
 ---
 
-*📲 Instalar con Termux*
-
-  <img src="https://qu.ax/finc.jpg" height="125px" alt="Descargar Termux">
-</a>
-
-<details>
-<summary><b>📦 Comandos para instalación rápida</b></summary>
-
-```bash
-termux-setup-storage
-git clone https://github.com/thecarlos19/black-clover-MD
-cd black-clover-MD
-npm install
-npm start
-```
-
-⚠️ Si ves letras rojas al ingresar tu número, ¡no te preocupes! Es parte del proceso.
-</details>
-
----
-
-*☁️ Instalar con Cloud Shell*
-
-<details>
-<summary><b>🌀 Comandos para Cloud Shell</b></summary>
-
-```bash
-apt update && apt upgrade
-git clone https://github.com/thecarlos19/black-clover-MD && cd black-clover-MD
-yarn install && npm install
-npm start
-```
-
-✅ ¡Listo! Tu bot está activo y funcionando 🥷
-</details>
-
-![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
-
 *🔗 Enlaces oficiales*
 PlataformaTipoEnlace📱 WhatsApp Canal OficialNoticias y actualizaciones[Ir al canal](https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w)👥 Grupo de SoporteComunidad y ayuda[Unirse al grupo](https://chat.whatsapp.com/GrcUknwrJbNIXIIrbsuXc0)---
 
