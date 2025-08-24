@@ -27,7 +27,7 @@ global.mods = []
 global.suittag = ['5491156178758'] 
 global.prems = []
 
-global.Owner.ID = [
+global.OwnerID = [
   {
     jid: '5491156178758@s.whatsapp.net',
     nombre: '𝖿𝖾𝖽𝖾𝗑𝗒𝗓13',
