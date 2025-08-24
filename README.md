@@ -14,15 +14,6 @@
   <img src="https://files.cloudkuimages.guru/images/AV8moLnK.jpg" width="300" alt="SukiBot-V5.2.0">
 </p>
 
-<p align="center">
-  <a href="https://wa.me/5491156178758">
-    <img src="https://img.shields.io/badge/WhatsApp-fedexyz13-25D366?style=for-the-badge&logo=whatsapp" alt="WhatsApp del autor">
-  </a>
-  <a href="https://www.instagram.com/dev_fedexyz13?">
-    <img src="https://img.shields.io/badge/Instagram-@fedexyz13-purple?style=for-the-badge&logo=instagram" alt="Instagram Oficial">
-  </a>
-</p>
-
 ![line](https://raw.githubusercontent.com/ArlindNocaj/animated-lines/main/rainbow-line.gif)
 
 *ℹ️ Sobre el proyecto*
