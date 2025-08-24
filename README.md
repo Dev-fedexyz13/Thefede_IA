@@ -9,7 +9,7 @@
 
 ---
 
-<h1 align="center">🍁 SUKI-BOT</h1>
+<h1 align="center">♡ SUKI-BOT ♡</h1>
 <p align="center">
   <img src="https://files.cloudkuimages.guru/images/AV8moLnK.jpg" width="300" alt="SukiBot-V5.2.0">
 </p>
