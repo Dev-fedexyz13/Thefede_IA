@@ -42,14 +42,14 @@ handler.all = async function (m) {
   global.creador = 'Wa.me/525544876071'
   global.ofcbot = `${conn?.user?.jid?.split('@')[0] || ''}`
   global.asistencia = 'Wa.me/525544876071'
-  global.namechannel = '⏤͟͞㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 '
-  global.namegrupo = ' 𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘︎'
-  global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 ⏤͟͞ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 '
-  global.listo = '⚔️ *Aquí tienes perra*'
+  global.namechannel = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋'
+  global.namegrupo = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋'
+  global.namecomu = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋 '
+  global.listo = '*🍁 Aquí tienes tu pedido*'
 
   //Ids channel
   global.canalIdM = ["120363307694217288@newsletter", "120363307694217288@newsletter"]
-  global.canalNombreM = ["⏤͟͞㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 ", "㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 "]
+  global.canalNombreM = ["'🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋 ", "'🎄 Sᴜᴋɪ 🎋 "]
   global.idchannel = canalIdM[0]
   global.channelRD = await getRandomChannel()
 
@@ -114,13 +114,13 @@ handler.all = async function (m) {
   global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1 }, quoted: m } }
 
   global.icono = pickRandom([
-    'https://qu.ax/mXhLb.jpg',
-    'https://qu.ax/XKFEL.jpg',
-    'https://qu.ax/CEtTA.jpg',
-    'https://qu.ax/QvBia.jpg'
+    'https://files.catbox.moe/rkvuzb.jpg',
+    'https://files.catbox.moe/rkvuzb.jpg',
+    'https://files.catbox.moe/3ngnnn.jpg',
+    'https://files.catbox.moe/3ngnnn.jpg'
   ])
 
-  global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name }, externalAdReply: { showAdAttribution: true, title: "𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘", body: "𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒", mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, } }
+  global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name }, externalAdReply: { showAdAttribution: true, title: "🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋", body: "ꜰᴇᴅᴇxʏᴢ", mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, } }
 
 }
 
