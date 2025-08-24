@@ -11,15 +11,15 @@
 
 <h1 align="center">♡ SUKI-BOT ♡</h1>
 <p align="center">
-  <img src="https://files.cloudkuimages.guru/images/AV8moLnK.jpg" width="300" alt="SukiBot-V5.2.0">
+  <img src="https://files.cloudkuimages.guru/images/t94qYr5F.jpg" width="500" alt="SukiBot-V5.2.0">
 </p>
 
 ![line](https://raw.githubusercontent.com/ArlindNocaj/animated-lines/main/rainbow-line.gif)
 
-*ℹ️ Sobre el proyecto*
+*📚 Sobre el proyecto*
 
 <details>
-<summary><b>📘 Información legal</b></summary>
+<summary><b>📓 Información legal</b></summary>
 
 Este bot es un desarrollo *independiente* y *no está afiliado* a `WhatsApp LLC`.
 WhatsApp es una marca registrada, y este proyecto no tiene relación oficial con la compañía.
