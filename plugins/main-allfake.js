@@ -116,8 +116,8 @@ handler.all = async function (m) {
   global.icono = pickRandom([
     'https://files.catbox.moe/3z9alv.jpg',
     'https://files.catbox.moe/3z9alv.jpg',
-    'https://files.catbox.moe/3z9alv.jpg',
-    'https://files.catbox.moe/3z9alv.jpg'
+    'https://files.catbox.moe/y0jhmw.jpg',
+    'https://files.catbox.moe/y0jhmw.jpg'
   ])
 
   global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name }, externalAdReply: { showAdAttribution: true, title: "🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋", body: "﹫𝖿𝖾𝖽𝖾𝗑𝗒𝗓", mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, } }
