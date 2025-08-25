@@ -14,7 +14,7 @@ const handler = async (m, { conn, text, usedPrefix, command}) => {
 
   const body = `🎀 *𝖲𝗎𝗄𝗂Bot_MD* 🎀
 
-✨ 𝖤𝗅 𝗆𝖾𝗃𝗈𝗋 𝖻𝗈𝗍 𝖽𝖾 𝖶𝗁𝖺𝗍𝗌𝖠𝗉𝗉 𝗉𝖺𝗋𝖺 𝗍𝗎𝗌 𝖽𝖾𝗌𝖼𝖺𝗋𝗀𝖺𝗌 ✨
+✨ 𝖲𝗎𝗄𝗂Bot_MD 𝖽𝖾𝗌𝖼𝖺𝗋𝗀𝖺𝗌 ✨
 
 🔎 𝖱𝖾𝗌𝗎𝗅𝗍𝖺𝖽𝗈 𝖾𝗇𝖼𝗈𝗇𝗍𝗋𝖺𝖽𝗈:
 *${videoInfo.title}*
@@ -29,7 +29,7 @@ const handler = async (m, { conn, text, usedPrefix, command}) => {
     {
       image: { url: videoInfo.thumbnail},
       caption: body,
-      footer: `⚔️ *𝖲𝗎𝗄𝗂Bot_MD* | 𝖢𝖺𝗅𝗂𝖽𝖺𝖽 𝗒 𝗏𝖾𝗅𝗈𝖼𝗂𝖽𝖺𝖽 𝖺𝗅 𝖾𝗌𝗍𝗂𝗅𝗈 𝗇𝗂𝗇𝗃𝖺 🥷`,
+      footer: `🍁 *𝖲𝗎𝗄𝗂Bot_MD* 🍁`,
       buttons: [
         { buttonId: `.ytmp3 ${videoInfo.url}`, buttonText: { displayText: '🎧 𝖣𝖾𝗌𝖼𝖺𝗋𝗀𝖺𝗋 𝖠𝗎𝖽𝗂𝗈'}},
         { buttonId: `.ytmp4 ${videoInfo.url}`, buttonText: { displayText: '📽️ 𝖣𝖾𝗌𝖼𝖺𝗋𝗀𝖺𝗋 𝖵𝗂𝖽𝖾𝗈'}},
