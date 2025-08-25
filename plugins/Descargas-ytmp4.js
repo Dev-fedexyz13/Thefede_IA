@@ -1,3 +1,6 @@
+import axios from 'axios';
+import fetch from 'node-fetch';
+
 const MAX_FILE_SIZE = 280e6;
 const VIDEO_THRESHOLD = 70e6;
 const HEAVY_FILE_THRESHOLD = 100e6;
@@ -84,9 +87,18 @@ let handler = async (m, { conn, text, usedPrefix, command}) => {
 ┃ 🧁 *𝖤𝗌𝗍𝗂𝗅𝗈:* MP4 directo al corazón
 ╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╯`.trim();
 
+    await conn.sendMessage(m.chat, {
+      image: { url: 'https://files.catbox.moe/3z9alv.jpg'}, // reemplazá con tu imagen real
+      caption,
+      footer: '🌸 𝖲𝗎𝗄𝗂Bot_MD siempre lista para ayudarte',
+      buttons: [
+        { buttonId: '.menu', buttonText: { displayText: '🍁 𝙈𝙀𝙉𝙐'}, type: 1}
+      ],
+      headerType: 4
+}, { quoted: m});
+
     const buffer = await fetch(url).then(r => r.buffer());
-    await conn.sendFile(m.chat, buffer, `${title}.mp4`, caption, m, null, {
-      mimetype: 'video/mp4',
+    await conn.sendFile(m.chat, buffer, `${title}.mp4`, undefined, m, null, {mimetype: 'video/mp4',
       asDocument: size>= VIDEO_THRESHOLD,
       filename: `${title}.mp4`
 });
