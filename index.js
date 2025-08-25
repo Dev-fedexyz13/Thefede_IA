@@ -1,46 +1,50 @@
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
 import './config.js'
-import { setupMaster, fork } from 'cluster'
-import { watchFile, unwatchFile } from 'fs'
+import { setupMaster, fork} from 'cluster'
+import { watchFile, unwatchFile} from 'fs'
 import cfonts from 'cfonts'
-import {createRequire} from 'module'
-import {fileURLToPath, pathToFileURL} from 'url'
-import {platform} from 'process'
+import { createRequire} from 'module'
+import { fileURLToPath, pathToFileURL} from 'url'
+import { platform} from 'process'
 import * as ws from 'ws'
-import fs, {readdirSync, statSync, unlinkSync, existsSync, mkdirSync, readFileSync, rmSync, watch} from 'fs'
-import yargs from 'yargs';
-import {spawn} from 'child_process'
+import fs, {
+  readdirSync, statSync, unlinkSync, existsSync,
+  mkdirSync, readFileSync, rmSync, watch
+} from 'fs'
+import yargs from 'yargs'
+import { spawn} from 'child_process'
 import lodash from 'lodash'
-import { blackJadiBot } from './plugins/jadibot-serbot.js';
+import { blackJadiBot} from './plugins/jadibot-serbot.js'
 import chalk from 'chalk'
 import syntaxerror from 'syntax-error'
-import {tmpdir} from 'os'
-import {format} from 'util'
+import { tmpdir} from 'os'
+import { format} from 'util'
 import boxen from 'boxen'
-import P from 'pino'
-import pino from 'pino'
 import Pino from 'pino'
-import path, { join, dirname } from 'path'
-import {Boom} from '@hapi/boom'
-import {makeWASocket, protoType, serialize} from './lib/simple.js'
-import {Low, JSONFile} from 'lowdb'
-import {mongoDB, mongoDBV2} from './lib/mongoDB.js'
+import path, { join, dirname} from 'path'
+import { Boom} from '@hapi/boom'
+import { makeWASocket, protoType, serialize} from './lib/simple.js'
+import { Low, JSONFile} from 'lowdb'
+import { mongoDB, mongoDBV2} from './lib/mongoDB.js'
 import store from './lib/store.js'
-const {proto} = (await import('@whiskeysockets/baileys')).default
+const { proto} = (await import('@whiskeysockets/baileys')).default
 import pkg from 'google-libphonenumber'
-const { PhoneNumberUtil } = pkg
+const { PhoneNumberUtil} = pkg
 const phoneUtil = PhoneNumberUtil.getInstance()
-const {DisconnectReason, useMultiFileAuthState, MessageRetryMap, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, jidNormalizedUser} = await import('@whiskeysockets/baileys')
-import readline, { createInterface } from 'readline'
+const {
+  DisconnectReason, useMultiFileAuthState, MessageRetryMap,
+  fetchLatestBaileysVersion, makeCacheableSignalKeyStore, jidNormalizedUser
+} = await import('@whiskeysockets/baileys')
+import readline, { createInterface} from 'readline'
 import NodeCache from 'node-cache'
-const {CONNECTING} = ws
-const {chain} = lodash
+const { CONNECTING} = ws
+const { chain} = lodash
 const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 
-let { say } = cfonts
+let { say} = cfonts
 
-async function animarTextoCyberpunk(texto, delay = 65, glitch = true) {
-  const efectos = '░▒▓█▌▐|/<>~*⚡☠☢⌬'
+async function animarTextoSuki(texto, delay = 65, glitch = true) {
+  const efectos = '✦★♡☆☁⚡🌸⌬'
   let resultado = ''
   for (let i = 0; i < texto.length; i++) {
     resultado += texto[i]
@@ -48,48 +52,48 @@ async function animarTextoCyberpunk(texto, delay = 65, glitch = true) {
     if (glitch) {
       const ruido = efectos[Math.floor(Math.random() * efectos.length)]
       linea += chalk.gray(ruido.repeat(Math.floor(Math.random() * 2)))
-    }
+}
     process.stdout.write('\r' + chalk.magentaBright(linea))
     await new Promise(res => setTimeout(res, delay))
-  }
+}
   console.log()
 }
 
-async function barraCargaCyberpunk() {
+async function barraCargaSuki() {
   const frames = [
-    '[⏳] Invocando grimorios...',
-    '[🔮] Reuniendo maná primitivo...',
-    '[💾] Cargando hechizos prohibidos...',
-    '[⚡] Sincronizando con demonios...',
-    '[🔥] Fusión de magia negra...',
-    '[🌌] Apertura del Reino Oscuro...',
-    '[✅] ASTA-BOT 100% OPERATIVO.'
+    '[🌸] Cargando grimorios digitales...',
+    '[✨] Reuniendo energía kawaii...',
+    '[📡] Sincronizando con servidores mágicos...',
+    '[🧠] Activando memoria encantada...',
+    '[⚔️] Preparando hechizos de combate...',
+    '[🎀] Apertura del núcleo de 𝖲𝗎𝗄𝗂...',
+    '[✅] 𝖲𝗎𝗄𝗂Bot_MD lista para ayudarte.'
   ]
   for (let frame of frames) {
     process.stdout.write('\r' + chalk.cyanBright(frame))
     await new Promise(res => setTimeout(res, 350))
-  }
+}
   console.log()
 }
 
-async function animacionRobot() {
+async function animacionSukiBot() {
   const frames = [
     `     🤖
     ╭───╮
-   ( ⚙️_⚙️ )   ACTIVANDO NÚCLEO
-   /|╳╳|\\
+   ( 🌸_🌸)   Inicializando núcleo
+   /|✦✦|\\
     ███
    /   \\`,
     `     🤖
     ╭───╮
-   ( ⚡_⚡ )   CONECTANDO ALMA
-   /|██|\\
+   ( ⚡_⚡)   Encendiendo conciencia
+   /|♡♡|\\
     ███
    /   \\`,
     `     🤖
     ╭───╮
-   ( 🧠_🧠 )   CARGANDO MEMORIA MÁGICA
-   /|XX|\\
+   ( 🧠_🧠)   Cargando memoria mágica
+   /|☆☆|\\
     ███
    /   \\`
   ]
@@ -97,53 +101,53 @@ async function animacionRobot() {
     console.clear()
     console.log(chalk.greenBright(frames[i % frames.length]))
     await new Promise(res => setTimeout(res, 400))
-  }
+}
 }
 
-async function iniciarBlackClover() {
+async function iniciarSukiBot() {
   console.clear()
-  console.log(chalk.bold.cyanBright('\n⟦ ⌬ ACCESO CONCEDIDO | ASTA-BOT V.777 ⟧'))
-  console.log(chalk.gray('⌬ Canalizando acceso mágico...'))
+  console.log(chalk.bold.cyanBright('\n⟦ ⌬ ACCESO CONCEDIDO | 𝖲𝗎𝗄𝗂Bot_MD ⟧'))
+  console.log(chalk.gray('⌬ Canalizando energía mágica...'))
   await new Promise(res => setTimeout(res, 600))
 
-  await animarTextoCyberpunk('⌬ Iniciando sistema mágico de combate...', 50, true)
+  await animarTextoSuki('⌬ Iniciando sistema encantado...', 50, true)
   await new Promise(res => setTimeout(res, 400))
 
-  await barraCargaCyberpunk()
+  await barraCargaSuki()
   await new Promise(res => setTimeout(res, 500))
 
-  console.log(chalk.redBright('\n☰✦☰═☰  B  L  A  C  K    C  L  O  V  E  R  ☰═☰✦☰'))
-  await animarTextoCyberpunk('⚔ Bienvenido al núcleo antimagia...', 60, true)
-  console.log(chalk.redBright('☰✦☰════════════════════☰✦☰'))
+  console.log(chalk.redBright('\n☰✦☰═☰  𝖲𝗎𝗄𝗂Bot_MD  ☰═☰✦☰'))
+  await animarTextoSuki('⚔ Bienvenida al núcleo de asistencia mágica...', 60, true)
+console.log(chalk.redBright('☰✦☰════════════════════☰✦☰'))
 
   await new Promise(res => setTimeout(res, 300))
-  await animarTextoCyberpunk('🧠 Desarrollado por: THE CARLOS 🧠', 45, false)
+  await animarTextoSuki('🧠 Desarrollado por: THE CARLOS', 45, false)
   await new Promise(res => setTimeout(res, 600))
 
-  console.log(chalk.yellowBright('\n⟦ ⌬ INICIANDO INTERFAZ ROBÓTICA DE COMBATE ⟧'))
-  await animacionRobot()
+  console.log(chalk.yellowBright('\n⟦ ⌬ INICIANDO INTERFAZ ROBÓTICA ⟧'))
+  await animacionSukiBot()
 
-  await animarTextoCyberpunk('\n⌬ ASTA-BOT ha despertado. Todos los hechizos están disponibles.', 40, true)
+  await animarTextoSuki('\n⌬ Todos los hechizos están disponibles.', 40, true)
 
-  console.log(chalk.bold.redBright('\n⚠️  ✧ MODO DEMONIO LISTO PARA ACTIVARSE ✧ ⚠️'))
-  await animarTextoCyberpunk('「💢💢¡NO TENGO MAGIA, PERO JAMÁS ME RINDO!💢💢」', 75, true)
+  console.log(chalk.bold.redBright('\n⚠️  ✧ MODO COMBATE LISTO ✧ ⚠️'))
+  await animarTextoSuki('「💢 ¡𝖲𝗎𝗄𝗂 nunca se rinde! 💢」', 75, true)
 
-  console.log(chalk.greenBright('\n⌬ Sistema Black Clover totalmente operativo.\n⌬ Esperando órdenes, capitán...\n'))
+  console.log(chalk.greenBright('\n⌬ Sistema operativo activo.\n⌬ Esperando comandos mágicos...\n'))
 
   await new Promise(res => setTimeout(res, 600))
   console.log(chalk.bold.gray('\n⌬═════════════════════════════════════════⌬'))
-  await animarTextoCyberpunk('⌬ Sistema creado por:', 40, false)
-  await animarTextoCyberpunk('⌬ ★ THE CARLOS ★', 80, true)
+  await animarTextoSuki('⌬ Sistema creado por:', 40, false)
+  await animarTextoSuki('⌬ ★ THE CARLOS ★', 80, true)
   console.log(chalk.bold.gray('⌬═════════════════════════════════════════⌬\n'))
 }
 
 const frases = [
-  '\n✠ Black Clover reiniciado. ⚙️ Cargando sistemas...\n',
-  '\n✠ Reinicio completado. ⚡ Black Clover listo.\n',
-  '\n✠ Sistema Black Clover: ⚙️ Online.\n',
-  '\n✠ Black Clover revive desde las sombras. ⛓️\n',
-  '\n✠ Reboot: Black Clover ⚔️\n'
-];
+  '\n✦ 𝖲𝗎𝗄𝗂Bot reiniciada. 🌸 Cargando hechizos...\n',
+  '\n✦ Reinicio completo. ⚡ Sistema listo.\n',
+  '\n✦ Núcleo encantado: 🧠 Online.\n',
+  '\n✦ 𝖲𝗎𝗄𝗂Bot revive con magia. ✨\n',
+  '\n✦ Reboot: 𝖲𝗎𝗄𝗂Bot_MD ⚔️\n'
+]
 
 function fraseAleatoria() {
   return frases[Math.floor(Math.random() * frases.length)];
