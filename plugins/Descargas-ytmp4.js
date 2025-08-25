@@ -76,11 +76,13 @@ let handler = async (m, { conn, text, usedPrefix, command}) => {
       await conn.reply(m.chat, '💾 Descargando archivo grande...');
 }
 
-    const caption = `╭─ *🕶️ 𝖲𝗎𝗄𝗂Bot_MD - MP4* ─╮
-┃ 🎀 *Título:* ${title}
-┃ 📦 *Tamaño:* ${formatSize(size)}
-┃ 🔗 *URL:* ${text}
-╰────────────────────╯`;
+    const caption = `
+╭╌╌〔 *🍁 𝖣𝖤𝖲𝖢𝖠𝖱𝖦𝖠 🍁* 〕╌╌╮
+┃ 🌸 *𝖳𝗂́𝗍𝗎𝗅𝗈:* ${title}
+┃ 📦 *𝖳𝖺𝗆𝖺ñ𝗈:* ${formatSize(size)}
+┃ 🔗 *𝖤𝗇𝗅𝖺𝖼𝖾:* ${text}
+┃ 🧁 *𝖤𝗌𝗍𝗂𝗅𝗈:* MP4 directo al corazón
+╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╯`.trim();
 
     const buffer = await fetch(url).then(r => r.buffer());
     await conn.sendFile(m.chat, buffer, `${title}.mp4`, caption, m, null, {
