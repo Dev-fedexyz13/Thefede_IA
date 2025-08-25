@@ -102,7 +102,7 @@ async function animacionRobot() {
 
 async function iniciarBlackClover() {
   console.clear()
-  console.log(chalk.bold.cyanBright('\n⟦ ⌬ ACCESO CONCEDIDO | ASTA-BOT V.777 ⟧'))
+  console.log(chalk.bold.cyanBright('\n⟦ ⌬ ACCESO CONCEDIDO | SUKI-BOT V.5.2.0 ⟧'))
   console.log(chalk.gray('⌬ Canalizando acceso mágico...'))
   await new Promise(res => setTimeout(res, 600))
 
@@ -133,7 +133,7 @@ async function iniciarBlackClover() {
   await new Promise(res => setTimeout(res, 600))
   console.log(chalk.bold.gray('\n⌬═════════════════════════════════════════⌬'))
   await animarTextoCyberpunk('⌬ Sistema creado por:', 40, false)
-  await animarTextoCyberpunk('⌬ ★ THE CARLOS ★', 80, true)
+  await animarTextoCyberpunk('⌬ ★ FEDE-SYSTEM ★', 80, true)
   console.log(chalk.bold.gray('⌬═════════════════════════════════════════⌬\n'))
 }
 
