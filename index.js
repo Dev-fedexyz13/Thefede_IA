@@ -40,7 +40,7 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 let { say } = cfonts
 
 async function animarTextoCyberpunk(texto, delay = 65, glitch = true) {
-  const efectos = '✦★♡☆☁⚡🌸⌬'
+  const efectos = '░▒▓█▌▐|/<>~*⚡☠☢⌬'
   let resultado = ''
   for (let i = 0; i < texto.length; i++) {
     resultado += texto[i]
@@ -57,13 +57,13 @@ async function animarTextoCyberpunk(texto, delay = 65, glitch = true) {
 
 async function barraCargaCyberpunk() {
   const frames = [
-    '[🌸] Cargando grimorios digitales...',
-    '[✨] Reuniendo energía kawaii...',
-    '[📡] Sincronizando con servidores mágicos...',
-    '[🧠] Activando memoria encantada...',
-    '[⚔️] Preparando hechizos de combate...',
-    '[🎀] Apertura del núcleo de 𝖲𝗎𝗄𝗂...',
-    '[✅] 𝖲𝗎𝗄𝗂Bot_MD lista para ayudarte.'
+    '[⏳] Invocando grimorios...',
+    '[🔮] Reuniendo maná primitivo...',
+    '[💾] Cargando hechizos prohibidos...',
+    '[⚡] Sincronizando con demonios...',
+    '[🔥] Fusión de magia negra...',
+    '[🌌] Apertura del Reino Oscuro...',
+    '[✅] ASTA-BOT 100% OPERATIVO.'
   ]
   for (let frame of frames) {
     process.stdout.write('\r' + chalk.cyanBright(frame))
@@ -102,7 +102,7 @@ async function animacionRobot() {
 
 async function iniciarBlackClover() {
   console.clear()
-  console.log(chalk.bold.cyanBright('\n⟦ ⌬ ACCESO CONCEDIDO | SUKI-BOT V.5.2.0 ⟧'))
+  console.log(chalk.bold.cyanBright('\n⟦ ⌬ ACCESO CONCEDIDO | ASTA-BOT V.777 ⟧'))
   console.log(chalk.gray('⌬ Canalizando acceso mágico...'))
   await new Promise(res => setTimeout(res, 600))
 
@@ -112,37 +112,37 @@ async function iniciarBlackClover() {
   await barraCargaCyberpunk()
   await new Promise(res => setTimeout(res, 500))
 
-  console.log(chalk.redBright('\n☰✦☰═☰  𝖲𝗎𝗄𝗂Bot_MD  ☰═☰✦☰'))
-  await animarTextoCyberpunk('「💢 ¡𝖲𝗎𝗄𝗂 nunca se rinde! 💢」', 60, true)
+  console.log(chalk.redBright('\n☰✦☰═☰  B  L  A  C  K    C  L  O  V  E  R  ☰═☰✦☰'))
+  await animarTextoCyberpunk('⚔ Bienvenido al núcleo antimagia...', 60, true)
   console.log(chalk.redBright('☰✦☰════════════════════☰✦☰'))
 
   await new Promise(res => setTimeout(res, 300))
-  await animarTextoCyberpunk('🧠 Desarrollado por: Fedexyz 🧠', 45, false)
+  await animarTextoCyberpunk('🧠 Desarrollado por: THE CARLOS 🧠', 45, false)
   await new Promise(res => setTimeout(res, 600))
 
   console.log(chalk.yellowBright('\n⟦ ⌬ INICIANDO INTERFAZ ROBÓTICA DE COMBATE ⟧'))
   await animacionRobot()
 
-  await animarTextoCyberpunk('\n⌬ SUKI-BOT ha despertado. Todos los hechizos están disponibles.', 40, true)
+  await animarTextoCyberpunk('\n⌬ ASTA-BOT ha despertado. Todos los hechizos están disponibles.', 40, true)
 
   console.log(chalk.bold.redBright('\n⚠️  ✧ MODO DEMONIO LISTO PARA ACTIVARSE ✧ ⚠️'))
   await animarTextoCyberpunk('「💢💢¡NO TENGO MAGIA, PERO JAMÁS ME RINDO!💢💢」', 75, true)
 
-  console.log(chalk.greenBright('\n⌬ Sistema Suki Bot totalmente operativo.\n⌬ Esperando órdenes, capitán...\n'))
+  console.log(chalk.greenBright('\n⌬ Sistema Black Clover totalmente operativo.\n⌬ Esperando órdenes, capitán...\n'))
 
   await new Promise(res => setTimeout(res, 600))
   console.log(chalk.bold.gray('\n⌬═════════════════════════════════════════⌬'))
   await animarTextoCyberpunk('⌬ Sistema creado por:', 40, false)
-  await animarTextoCyberpunk('⌬ ★ FEDE-SYSTEM ★', 80, true)
+  await animarTextoCyberpunk('⌬ ★ THE CARLOS ★', 80, true)
   console.log(chalk.bold.gray('⌬═════════════════════════════════════════⌬\n'))
 }
 
 const frases = [
-  '\n✦ 𝖲𝗎𝗄𝗂Bot reiniciada. 🌸 Cargando hechizos...\n',
-  '\n✦ Reinicio completo. ⚡ Sistema listo.\n',
-  '\n✦ Núcleo encantado: 🧠 Online.\n',
-  '\n✦ 𝖲𝗎𝗄𝗂Bot revive con magia. ✨\n',
-  '\n✦ Reboot: 𝖲𝗎𝗄𝗂Bot_MD ⚔️\n'
+  '\n✠ Black Clover reiniciado. ⚙️ Cargando sistemas...\n',
+  '\n✠ Reinicio completado. ⚡ Black Clover listo.\n',
+  '\n✠ Sistema Black Clover: ⚙️ Online.\n',
+  '\n✠ Black Clover revive desde las sombras. ⛓️\n',
+  '\n✠ Reboot: Black Clover ⚔️\n'
 ];
 
 function fraseAleatoria() {

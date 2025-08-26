@@ -1,7 +1,7 @@
 {
-"name": "SukiBot_MD",
+"name": "Black-clover-MD",
 "version": "7.7.7",
-"description": "Suki bot Multi-Device",
+"description": "El Mejor bot de WhatsApp",
 "main": "index.js",
 "type": "module",
 "directories": {
@@ -16,16 +16,16 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/Dev-fedexyz13/Regna_Bot",
+"homepage": "https://github.com/thecarlos19/black-clover-MD",
 "author": {
-"name": "fedexyz13"
+"name": "thecarlos19"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Dev-fedexyz13/Regna_Bot.git"
+"url": "git+https://github.com/thecarlos19/black-clover-MD.git"
 },
 "bugs": {
-"url": "https://github.com/Dev-fedexyz13/Regna_Bot/issues"
+"url": "https://github.com/thecarlos19/black-clover-MD/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {

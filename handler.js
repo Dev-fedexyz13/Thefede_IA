@@ -489,22 +489,15 @@ if (opts['autoread']) await this.readMessages([m.key])
 
 
   global.dfail = (type, m, usedPrefix, command, conn) => {
-     const msg = {
-  rowner: `🚫 *𝖠𝖢𝖢𝖤𝖲𝖮 𝖱𝖤𝖲𝖳𝖱𝖨𝖭𝖦𝖨𝖣𝖮*\n\n> 𝖲𝗈𝗅𝗈 𝖾𝗅 *𝖢𝗋𝖾𝖺𝖽𝗈𝗋 𝖲𝗎𝗉𝗋𝖾𝗆𝗈* 𝗉𝗎𝖾𝖽𝖾 𝖾𝗃𝖾𝖼𝗎𝗍𝖺𝗋 𝖾𝗌𝗍𝖾 𝗉𝗋𝗈𝗍𝗈𝖼𝗈𝗅𝗈.\n\n🧠 𝖴𝗌𝗎𝖺𝗋𝗂𝗈 𝖠𝗎𝗍𝗈𝗋𝗂𝗓𝖺𝖽𝗈: 👑 𝖣𝖤𝖵‐𝖥𝖤𝖣𝖤𝖷𝖸𝖹𝟣𝟥\n🔗 𝖲𝗂𝗌𝗍𝖾𝗆𝖺: root@𝖲𝗎𝗄𝗂Bot_MD://omega/core`,
-
-  owner: `🔐 *𝖬Ó𝖣𝖴𝖫𝖮 𝖣𝖤𝖵 𝖡𝖫𝖮𝖰𝖴𝖤𝖠𝖣𝖮*\n\n> 𝖤𝗌𝗍𝖺 𝖿𝗎𝗇𝖼𝗂𝗈́𝗇 𝖾𝗌𝗍𝖺́ 𝗋𝖾𝗌𝗍𝗋𝗂𝗇𝗀𝗂𝖽𝖺 𝖺 𝗉𝖾𝗋𝗆𝗂𝗌𝗈𝗌 𝖽𝖾 *𝖣𝖤𝖲𝖠𝖱𝖱𝖮𝖫𝖫𝖠𝖣𝖮𝖱*.\n\n🧬 𝖢𝗈𝗇𝗌𝗈𝗅𝖺: dev@𝖲𝗎𝗄𝗂.ai/core.sh`,
-
-  premium: `💎 *𝖢𝖴𝖤𝖭𝖳𝖠 𝖯𝖱𝖤𝖬𝖨𝖴𝖬 𝖱𝖤𝖰𝖴𝖤𝖱𝖨𝖣𝖠*\n\n> 𝖬𝗈́𝖽𝗎𝗅𝗈 𝖾𝗑𝖼𝗅𝗎𝗌𝗂𝗏𝗈 𝗉𝖺𝗋𝖺 𝗎𝗌𝗎𝖺𝗋𝗂𝗈𝗌 *𝖵𝖨𝖯 - 𝖯𝖱𝖤𝖬𝖨𝖴𝖬*.\n\n📡 𝖠𝖼𝗍𝗎𝖺𝗅𝗂𝗓𝖺 𝗍𝗎 𝗉𝗅𝖺𝗇 𝖼𝗈𝗇: */vip*\n⚙️ 𝖤𝗌𝗍𝖺𝖽𝗈: 𝖽𝖾𝗇𝖾𝗀𝖺𝖽𝗈`,
-
-  private: `📱 *𝖲𝖮𝖫𝖮 𝖢𝖧𝖠𝖳 𝖯𝖱𝖨𝖵𝖠𝖣𝖮*\n\n> 𝖤𝗌𝗍𝖾 𝖼𝗈𝗆𝖺𝗇𝖽𝗈 𝗇𝗈 𝖾𝗌𝗍𝖺́ 𝖽𝗂𝗌𝗉𝗈𝗇𝗂𝖻𝗅𝖾 𝖾𝗇 𝗀𝗋𝗎𝗉𝗈𝗌.\n\n🔒 𝖤𝗃𝖾𝖼𝗎𝗍𝖺𝗅𝗈 𝖾𝗇 𝗉𝗋𝗂𝗏𝖺𝖽𝗈.`,
-
-  admin: `🛡️ *𝖥𝖴𝖭𝖢𝖨Ó𝖭 𝖱𝖤𝖲𝖳𝖱𝖨𝖭𝖦𝖨𝖣𝖠 𝖠 𝖠𝖣𝖬𝖨𝖭𝖲*\n\n> 𝖲𝗈𝗅𝗈 𝗅𝗈𝗌 𝖺𝖽𝗆𝗂𝗇𝗂𝗌𝗍𝗋𝖺𝖽𝗈𝗋𝖾𝗌 𝗉𝗎𝖾𝖽𝖾𝗇 𝗎𝗌𝖺𝗋 𝖾𝗌𝗍𝖾 𝗆𝗈́𝖽𝗎𝗅𝗈.\n\n⚠️ 𝖠𝖼𝖼𝖾𝗌𝗈 𝗇𝗈 𝖺𝗎𝗍𝗈𝗋𝗂𝗓𝖺𝖽𝗈.`,
-
-  botAdmin: `🤖 *𝖲𝗎𝗄𝗂 𝗇𝗈 𝗍𝗂𝖾𝗇𝖾 𝗉𝖾𝗋𝗆𝗂𝗌𝗈𝗌*\n\n> 𝖭𝖾𝖼𝖾𝗌𝗂𝗍𝗈 𝗌𝖾𝗋 𝖠𝖽𝗆𝗂𝗇 𝗉𝖺𝗋𝖺 𝖾𝗃𝖾𝖼𝗎𝗍𝖺𝗋 𝖾𝗌𝗍𝖾 𝗉𝗋𝗈𝗍𝗈𝖼𝗈𝗅𝗈.\n\n🔧 𝖣𝖺𝗆𝖾 𝗉𝖾𝗋𝗆𝗂𝗌𝗈𝗌 𝖼𝗈𝗇: *dar al bot admin*\n🔒 𝖤𝗌𝗍𝖺𝖽𝗈: *no admin XD*`,
-
-  unreg: `📄 *𝖴𝖲𝖴𝖠𝖱𝖨𝖮 𝖭𝖮 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖠𝖣𝖮*\n\n> 🚫 𝖭𝗈 𝗉𝗎𝖾𝖽𝖾𝗌 𝗎𝗌𝖺𝗋 𝖾𝗅 𝖻𝗈𝗍 𝗌𝗂𝗇 𝗋𝖾𝗀𝗂𝗌𝗍𝗋𝖺𝗋𝗍𝖾.\n\n🔐 𝖱𝖾𝗀𝗂𝗌𝗍𝗋𝖺𝗍𝖾 𝖼𝗈𝗇: */reg nombre.edad*\n📍 𝖤𝗃𝖾𝗆𝗉𝗅𝗈: */reg 𝖲𝗎𝗄𝗂.18*\n\n📡 𝖢𝖺𝗇𝖺𝗅 𝗈𝖿𝗂𝖼𝗂𝖺𝗅:\nhttps://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w\n📂 𝖢𝗋𝖾𝖺𝖽𝗈𝗋: 𝖣𝖤𝖵‐𝖥𝖤𝖣𝖤𝖷𝖸𝖹𝟣𝟥`,
-
-  restrict: `🚷 *𝖬Ó𝖣𝖴𝖫𝖮 𝖡𝖫𝖮𝖰𝖴𝖤𝖠𝖣𝖮 𝖦𝖫𝖮𝖡𝖠𝖫𝖬𝖤𝖭𝖳𝖤*\n\n> 𝖤𝗌𝗍𝖾 𝖼𝗈𝗆𝖺𝗇𝖽𝗈 𝖿𝗎𝖾 𝖽𝖾𝗌𝖺𝖼𝗍𝗂𝗏𝖺𝖽𝗈 𝗉𝗈𝗋 𝖾𝗅 *𝖮𝗉𝖾𝗋𝖺𝖽𝗈𝗋 𝖦𝗅𝗈𝖻𝖺𝗅* 𝗉𝗈𝗋 𝗋𝖺𝗓𝗈𝗇𝖾𝗌 𝖽𝖾 𝗌𝖾𝗀𝗎𝗋𝗂𝖽𝖺𝖽.\n\n🧩 𝖬Ó𝖣𝖴𝖫𝖮: */xvideos*`,
+    const msg = {
+        rowner: `🛑 *ACCESO RESTRINGIDOΩ*\n\n> Solo el *Creador Supremo* puede ejecutar este protocolo.\n\n🧬 Usuario Autorizado: 👑 𝙏𝙃𝙀 𝘾𝘼𝙍𝙇𝙊𝙎\n🔗 Sistema: root@asTa-bot://omega/core`,
+        owner: `⚙️🔒 *MÓDULO DEV: ACCESO BLOQUEADO*\n\n> Esta función está anclada a permisos de *𝙳𝙴𝚂𝙰𝚁𝚁𝙾𝙻𝙻𝙰𝙳𝙾𝚁*.\n\n🧠 Consola de Seguridad: dev@asta.ai/core.sh`,
+        premium: `*REQUIERE CUENTA PREMIUM*\n\n> 🚫 Módulo exclusivo para usuarios *𝙑𝙄𝙋 - 𝙋𝙍𝙀𝙈𝙄𝙐𝙈*.\n\n📡 Actualiza tu plan con: */vip*\n⚙️ Estado: denegado`,
+        private: `🔒 *SOLO CHAT PRIVADO* 📲\n\n> Este comando no puede ejecutarse en grupos por razones de seguridad.\n\n🧬 Ejecuta este protocolo directamente en el chat privado.`,
+        admin: `🛡️ *FUNCIÓN RESTRINGIDA*\n\n> Solo los administradores del *Grupo* tienen acceso.\n\n⚠️ Intento no autorizado.`,
+        botAdmin: `🤖 *BOT SIN PERMISOS SUFICIENTES*\n\n> Debo tener permisos de *Administrador* para ejecutar esta acción.\n\n🔍 Ejecuta: *dar al bot admin*\n🔒 Estado actual: *no admin XD*`,
+        unreg: `🧾 *NO REGISTRADO EN EL SISTEMA*\n\n> 🚫 *Acceso denegado:* No puedes usar los comandos sin registrarte.\n\n🔐 Regístrate con: */reg nombre.edad*\n📍 Ejemplo: */reg Asta.20*\n\n> 📡 *Canal oficial del bot :*\nhttps://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w\n\n📂 *Creador del bot:* The Carlos`,
+        restrict: `🚷 *FUNCIÓN GLOBALMENTE BLOQUEADA*\n\n> Este comando fue deshabilitado por el *Operador Global* por motivos de seguridad cibernética.\n\n🔧 Módulo: /xvideos`
         }[type];
 if (msg) return m.reply(msg).then(_ => m.react('✖️'))}
 
