@@ -1,6 +1,3 @@
-  // canal oficial The Legends ⚡
-//Código creado x The Carlos 👑 
-//No olviden dejar créditos.
 import { useMultiFileAuthState, DisconnectReason, makeCacheableSignalKeyStore, fetchLatestBaileysVersion, Browsers } from "@whiskeysockets/baileys"
 import qrcode from "qrcode"
 import NodeCache from "node-cache"
@@ -26,40 +23,27 @@ let crm4 = "IF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz"
 let drm1 = ""
 let drm2 = ""
 
-let rtx =
-`✞ঔৣr̴ 𝘽𝙡𝙖𝙘𝙠 𝘾𝙡𝙤𝙫𝙚𝙧 - 𝙎𝙪𝙗 𝘽𝙤𝙩 𝙈𝙤𝙙𝙤 ঔৣ✞
-[⚙️] Conexión de Grimorio Sub-Bot: QR
-⚡ Invocación mágica inicializada... ☠️ Grimorio estableciendo vínculo espiritual...
-🜲 Escanea este código QR mágico desde otro 📱 o tu 🖥️ para convertirte en un ✧ Sub-Bot Temporal al servicio del Reino Mágico.
-📜 * Vinculación:
-1 » Toca los ⋮ tres puntos en la esquina superior derecha del WhatsApp
-2 » Selecciona Dispositivos Vinculados (Portal de Conexión)
-3 » Escanea el Grimorio QR para sincronizar tu alma con el bot
-⏳ ¡Alerta, Caballero Mágico! Este sello mágico se desvanece en ⚠️ 45 segundos...
-🧿 𝙎𝙄𝙎𝙏𝙀𝙈𝘼➤ [ QR ACTIVO ] 𝙀𝙎𝘾𝘼𝙉𝙀𝘼 𝙔𝘼 ⚔️`
+let rtx = `
+╭──『 𝖳𝗁𝖾-𝖿𝖾𝖽𝖾_𝖨𝖠: Grimorio QR 』──╮
+1 » Abre WhatsApp y toca ⋮
+2 » Ve a Dispositivos Vinculados
+3 » Escanea el código mágico
+4 » Espera la sincronización espiritual
 
-let rtx2 =
-`✞ঔৣr̴ 𝘽𝙡𝙖𝙘𝙠 𝙘𝙡𝙤𝙫𝙚𝙧 - 𝙎𝙪𝙗 𝘽𝙤𝙩 ঔৣ✞
+🍁 Estado: [ QR ACTIVO ]
+⏳ Tiempo límite: 45 segundos
+╰────────────────────────╯`;
 
-⌁ Conexión de Grimorio: CÓDIGO ⌁
+let rtx2 = `
+╭──『 𝖳𝗁𝖾-𝖿𝖾𝖽𝖾_𝖨𝖠: Código Arcano 』──╮
+1 » Abre WhatsApp y toca ⋮
+2 » Dispositivos Vinculados
+3 » Vincular por número
+4 » Ingresa el código otorgado
 
-⚡ Canalizando energía arcana... ☠️ Grimorio despertando vínculo por código mágico...
-
-🜲 Usa este Código Espiritual para convertirte en un ✧ Sub-Bot Temporal bajo el contrato del Reino de las Sombras.
-
-📜 Vinculación Manual:
-
-1 » Pulsa los ⋮ tres puntos mágicos en la esquina superior derecha de WhatsApp
-
-2 » Selecciona Dispositivos Vinculados — Portal de Conexión
-
-3 » Elige Vincular con número de teléfono — Método del Grimorio Sellado
-
-4 » Introduce el Código Arcano otorgado por el núcleo mágico
-
-⏳ Atención, Guerrero de las Sombras: Este vínculo es delicado. ⚠️ No uses tu cuenta principal, emplea una réplica espiritual o una forma secundaria.
-
-🧿 𝙎𝙄𝙎𝙏𝙀𝙈𝘼 ➤ [ CÓDIGO LISTO ] — Activa el vínculo cuando estés preparado ⚔️`
+⚠️ Usa una cuenta secundaria
+🍁 Estado: [ CÓDIGO LISTO ]
+╰────────────────────────╯`;
 
 const maxSubBots = 500
 
@@ -318,4 +302,4 @@ export async function blackJadiBot(options) {
     }
     creloadHandler(false)
   })
-}
+    }
