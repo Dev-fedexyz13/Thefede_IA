@@ -17,36 +17,11 @@ global.botNumber = '' // Ejemplo: 525218138672
 
 global.owner = [
   ['5491156178758', 'creador fede', true],
-  ['573001533523', 'Colaborador Brayans', true],
-  ['5491176429276', 'SukiBot Oficial', true],
-  [''], // poner Su número 
-  ['']  // poner su número 
 ];
 
 global.mods = []
 global.suittag = ['5491156178758'] 
 global.prems = []
-
-global.OwnerID = [
-  {
-    jid: '5491156178758@s.whatsapp.net',
-    nombre: '𝖿𝖾𝖽𝖾𝗑𝗒𝗓13',
-    rol: 'Creador Principal',
-    premium: true
-},
-  {
-    jid: '573001533523@s.whatsapp.net',
-    nombre: 'DevBrayan',
-    rol: 'Colaborador Oficial',
-    premium: true
-},
-  {
-    jid: '5491176429276@s.whatsapp.net',
-    nombre: 'sukiBot',
-    rol: 'número Oficial de Suki',
-    premium: true
-}
-];
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
@@ -55,34 +30,34 @@ global.baileys = 'V 6.7.9'
 global.languaje = 'Español'
 global.vs = '2.2.0'
 global.vsJB = '5.0'
-global.nameqr = 'SukiBot'
-global.sessions = 'SukiSession'
-global.jadi = 'SukiJadiBot'
+global.nameqr = 'Fede_IA'
+global.sessions = 'FedeSession'
+global.jadi = 'FedeJadiBot'
 global.blackJadibts = true
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
 global.packsticker = `
-╭─❍ 𝖲𝗎𝗄𝗂𝐁𝗈𝘁_𝖬𝖣 ☘
-│ ✦ 𝖡𝗈𝘁: 𝖲𝗎𝗄𝗂𝐁𝗈𝘁_𝖬𝖣
+╭─❍ 𝖳𝗁𝖾-𝖿𝖾𝖽𝖾 - 𝖨𝖠  ☘
+│ ✦ 𝖡𝗈𝘁: 𝖳𝗁𝖾-𝖿𝖾𝖽𝖾_𝖨𝖠 
 │ ✦ 𝖢𝗋𝖾𝖺𝖽𝗈𝗋: 👑 𝖿𝖾𝖽𝖾𝗑𝗒𝗓13
 ╰─────────────⟡`;
 
-global.packname = `🎀 𝖲𝗎𝗄𝗂𝐁𝗈𝘁_𝖬𝖣 🎋`;
+global.packname = `🎀 𝖳𝗁𝖾-𝖿𝖾𝖽𝖾_𝖨𝖠 🎋`;
 global.author = `
 ⟦ 📅 Fecha: ${moment.tz('America/Los_Angeles').format('DD/MM/YY')} ⟧
 ⟦ ⏰ Hora: ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} ⟧
 ⟦ 🧠 Powered by: 𝖿𝖾𝖽𝖾𝗑𝗒𝗓13 ⟧
 ♾━━━━━━━━━━━━━━━━━━━━♾`;
 
-global.wm = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋';
-global.titulowm = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋';
-global.igfg = '୧ ꜰᴇᴅᴇxʏᴢㅤ🎋'
-global.botname = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ 𝖿ᥱძᥱ᥊ᥡzㅤ🍁'
-global.textbot = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD  𝐁ᥡ ꜰᴇᴅᴇxʏᴢ'
-global.gt = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD 🎋';
-global.namechannel = '🎄 Sᴜᴋɪ𝐁𝐨𝐭_MD  𝐁ᥡ ꜰᴇᴅᴇxʏᴢ'
+global.wm = '🎄 𝖳𝗁𝖾-𝖿𝖾𝖽𝖾_𝖨𝖠 🎋';
+global.titulowm = '🎄 𝖳𝗁𝖾-𝖿𝖾𝖽𝖾_𝖨𝖠 🎋';
+global.igfg = '୧ 𝖣𝖾𝗏𝖥𝖾𝖽𝖾𝟣𝟥ㅤ🎋'
+global.botname = '🎄 𝖳𝗁𝖾-𝖿𝖾𝖽𝖾_𝖨𝖠 🎋'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ 𝖣𝖾𝗏𝖥𝖾𝖽𝖾𝟣𝟥ㅤ🍁'
+global.textbot = '🎄 𝖣𝖾𝗏𝖥𝖾𝖽𝖾𝟣𝟥 | 𝖳𝗁𝖾-𝖿𝖾𝖽𝖾_𝖨𝖠'
+global.gt = '🎄 𝖳𝗁𝖾-𝖿𝖾𝖽𝖾_𝖨𝖠 🎋';
+global.namechannel = '🎄 𝖳𝗁𝖾-𝖿𝖾𝖽𝖾 - 𝖨𝖠  | 𝖣𝖾𝗏𝖥𝖾𝖽𝖾𝟣𝟥'
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
